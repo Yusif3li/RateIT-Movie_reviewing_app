@@ -49,7 +49,7 @@ To run this project locally on your machine or Android emulator:
 4.**Run the App:**
 * Click the green Run (▶) button to launch the app on an Android Emulator or a physical USB-connected Android device.
 
-**📂 Core Project Structure**
+📂 **Core Project Structure**
 * /app/src/main/java/com/example/moviesreviewapp/
  * *MoviesDBHelper.java: The core SQLite engine managing all CRUD operations.
  * *MainActivity.java: The primary catalog screen handling RecyclerViews and search/filter logic.
