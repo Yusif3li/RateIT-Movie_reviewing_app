@@ -49,21 +49,14 @@ To run this project locally on your machine or Android emulator:
 4.**Run the App:**
 * Click the green Run (▶) button to launch the app on an Android Emulator or a physical USB-connected Android device.
 
-```📂 Core Project Structure
-*/app/src/main/java/com/example/moviesreviewapp/
+**📂 Core Project Structure**
+* /app/src/main/java/com/example/moviesreviewapp/
+ * *MoviesDBHelper.java: The core SQLite engine managing all CRUD operations.
+ * *MainActivity.java: The primary catalog screen handling RecyclerViews and search/filter logic.
+ * *DetailMovie.java: The movie detail screen handling user interactions (rating, saving, reviewing).
+ * *LoginActivity.java & SignupActivity.java: Authentication and session management.
+* /app/src/main/res/
+ * *layout/: Contains all XML layouts (Main screen, Detail views, Custom Row items).
+ * *values/: Contains centralized strings, colors, and theme definitions.
 
- MoviesDBHelper.java: The core SQLite engine managing all CRUD operations.
-
- MainActivity.java: The primary catalog screen handling RecyclerViews and search/filter logic.
-
- DetailMovie.java: The movie detail screen handling user interactions (rating, saving, reviewing).
-
- LoginActivity.java & SignupActivity.java: Authentication and session management.
-
-*/app/src/main/res/
-
- layout/: Contains all XML layouts (Main screen, Detail views, Custom Row items).
-
- values/: Contains centralized strings, colors, and theme definitions.
-```
 Developed as a college project to demonstrate native Android development and local database architecture.
